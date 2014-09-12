@@ -1,0 +1,52 @@
+<div class="container">
+  {{#if fullscrean}}
+    <div class="row clearfix header">
+      <div class="col-md-12 column">
+        {{outlet}}
+      </div>
+    </div>
+  {{else}} 
+    <div class="row clearfix header">
+        <div class="col-md-2 column">
+        </div>
+        <div class="col-md-8 column">
+          {{#if logged}}
+              <div class='current-title'>
+                <h1>{{currentTitle}}</h1>
+              </div>
+              <div class='parent-title'>
+                <h2>{{parentTitle}}</h2>
+              </div>
+          {{else}}
+              <div class='current-title'>
+                <h1>Zvooq Report</h1>
+              </div>
+          {{/if}}
+        </div>
+        <div class="col-md-2 column">
+          <div class="state">    
+            <div class="row cdate">
+                {{currentDate}}
+            </div>
+            <div class="row auth">
+                {{render "auth"}}
+            </div>
+          </div>
+        </div>
+    </div>
+    {{#if logged}}
+      <div class="row clearfix">
+          <div class="col-md-2 column">
+              {{render "menu"}}
+          </div>
+          <div class="col-md-8 column">
+              {{outlet}}
+          </div>
+          <div class="col-md-2 column">
+          </div>
+      </div>
+    {{else}}
+      <h1>Please, log in.</h1>
+    {{/if}}
+  {{/if}}
+</div>

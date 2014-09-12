@@ -1,0 +1,214 @@
+/*INSTANT*/
+
+/*Header*/
+
+.header {
+  font-size: 13pt;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.header .current-title {
+  display: inline-block;
+}
+
+.header .parent-title {
+  display: inline-block; 
+  margin-left: 30px;
+}
+
+.header .state {
+  float: right;
+}
+
+/*Main*/
+
+.main {
+  font-size: 13pt;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+/*MainMenu*/
+
+.main-menu {
+  font-size: 12pt;
+}
+
+/*Stats*/
+
+.tools {
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 30px;
+}
+
+.tools .dates-range {
+  display: inline-block;
+}
+
+.tools .field {
+  margin-left: 20px;
+  display: inline-block;
+}
+
+.tools .input {
+  background-color: #4679B7;
+  border: solid 2px #305482;
+  text-align: center;
+  width: 100px;
+  height: 30px;
+  color: white;
+}
+
+.tools .select {
+  margin-left: 50px;
+  background-color: #4679B7;
+  border: solid 2px #305482;
+  text-align: center;
+  width: 200px;
+  height: 30px;
+  color: white;
+}
+
+.stats-menu {
+  font-size: 12pt;
+}
+
+.stats-menu .v-item {
+  text-align: center;
+  height: 220px;
+  width: 80px;
+  background-color: #4679B7;
+  border: solid 2px #305482;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+
+.stats-menu .v-item .link {
+  writing-mode: tb-rl;
+  -webkit-transform: rotate(270deg);
+  -moz-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+  white-space: nowrap;
+  display: block;
+  margin-top: 120px;
+  color: white;
+}
+
+.stats-menu .h-item {
+  text-align: center;
+  line-height: 100px;
+  height: 100px;
+  width: 280px;
+  background-color: #4679B7;
+  border: solid 2px #305482;
+  margin-top: 5px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+
+.stats-menu .h-item .link {
+  color: white;
+}
+
+/*StatsSales*/
+
+.chart .details {
+  text-align: justify; 
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.chart .details:after {
+  content: "";
+  width: 100%;
+  display: inline-block;
+}
+
+.chart .details .field {
+  display: inline-block;
+}
+
+.chart .details label {
+  width: 150px;
+  text-align: center;
+  font-size: 9pt;
+  display: block;
+}
+
+.chart .details .checked {
+  font-size: 10pt;
+}
+
+.chart .details input {
+  border: solid 2px #305482;
+  text-align: center;
+  font-size: 13pt;
+  width: 150px;
+  height: 50px;
+  display: inline-block;
+}
+
+.chart .details .select {
+  background-color: #4679B7;
+  border: solid 2px #305482;
+  text-align: center;
+  width: 150px;
+  height: 30px;
+  color: white;
+  margin-left: 20px;
+  vertical-align: top;
+  display: inline-block;
+}
+
+.chart .chart-container .axis-caption {
+  position: absolute;
+  margin-top: 250px;
+  writing-mode: tb-rl;
+  -webkit-transform: rotate(270deg);
+  -moz-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+  white-space: nowrap;
+  width: 0px;
+  height: 0px;
+}
+
+.chart .chart-container .axis-caption.right {
+  position: absolute;
+  margin-top: 100px;
+  writing-mode: tb-rl;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  white-space: nowrap;
+  width: 0px;
+  height: 0px;
+  right: 0px;
+}
+
+.chart .chart-container .axis-caption label {
+  font-size: 10pt;
+}
+
+.v-line {
+  position: absolute;
+  border-left: 1px solid rgba(0, 0, 0, .5);
+  border-left: 1px solid rgb(0, 0, 0, .5);
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  height: 200px;
+  z-index: auto;
+} 
+
+.path.line-marker {
+  width: 20px;
+  height: 20px;
